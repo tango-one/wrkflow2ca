@@ -1,0 +1,25 @@
+$font_family_1: sans-serif;
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	max-width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+ul {
+	display: flex;
+	list-style-type: none;
+}
+li {
+	display: flex;
+	font-family: $font_family_1;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.img-front {
+	width: 100%;
+}
